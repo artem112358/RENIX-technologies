@@ -1,0 +1,138 @@
+body { 
+font-family: Verdana, Geneva, Tahoma, sans-serif; 
+margin: auto; 
+padding: 0; 
+background-image: url(y1.jpg);
+} 
+
+.header { 
+display: flex; 
+justify-content: space-between; 
+padding: 1rem; 
+width: 97.5%; 
+border-bottom: 2px solid; 
+} 
+
+.box-01 { 
+display: flex; 
+flex-direction: row; 
+justify-content: space-around; 
+align-items: center; 
+} 
+
+h3 { 
+margin: 0rem 1rem; 
+cursor: pointer; 
+} 
+
+h1 { 
+padding-left: 1rem; 
+} 
+
+.quote-icon { 
+background-color: dodgerblue; 
+color: white; 
+border-radius: 50rem; 
+padding: 0.5rem; 
+} 
+
+.text1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    transform: translate(0%, 120%);
+    text-shadow: 2px 2px 0 black, -2px -2px 0 black;
+}
+
+.box02 {
+	background-image: url(c1.jpg);
+	height: 770px;
+	transform: translate(0%, -3%);
+}
+
+button { 
+	width: 10%; 
+	padding: 5px 20px; 
+	margin: 8px 0; 
+	box-sizing: border-box; 
+	color: white;
+	background-color: black; 
+	border-radius: 5px 5px 5px 5px; 
+}
+
+.icon { 
+background-color: black; 
+color: white; 
+border-radius: 50rem; 
+padding: 0rem; 
+cursor: pointer; 
+transform: translate(-300%, -165%);
+} 
+
+.h4 {
+	transform: translate(0%, 40%);
+}
+
+.box03 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: white;
+	background-image: url(y1.jpg);
+	height: 1000px;
+	transform: translate(0%, -3.6%);
+}
+
+.z1 {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.z2 {
+	display: flex;
+	justify-content: center; 
+	flex-direction: row;
+	padding: 5px;
+	justify-content: space-between;
+}
+
+.q1{
+flex: 1;
+transform: translate(-10%, 10%);
+
+}
+
+.q2{
+flex: 1;
+transform: translate(0%, 10%);
+}
+
+.q3{
+flex: 1;
+transform: translate(20%, 10%);
+
+}
+
+.q4{
+flex: 1;
+transform: translate(-40%, 0%);
+
+}
+
+.q5{
+flex: 1;
+transform: translate(40%, -20%);
+}
+
+.box05 {
+	justify-content: top;
+	text-align: center;
+	border-top: 2px solid black;
+	transform: translate(0%, -170%);
+
+}
