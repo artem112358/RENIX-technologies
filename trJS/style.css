@@ -1,0 +1,93 @@
+
+body {
+	color: blue;
+}
+
+.inputs {
+	width: 500px;
+	order: 1;
+}
+
+.pall {
+	transform: translate(600%, 100%);
+}
+
+.p1 {
+	transform: translate(0%, -10%);
+}
+
+.p2 {
+	transform: translate(0%, 10%);
+}
+
+.p3 {
+	transform: translate(0%, 20%);
+}
+
+.tall {
+	transform: translate(120%, -100%);
+}
+
+.t1 {
+	transform: translate(0%, -10%);
+}
+
+.t1_2 {
+	transform: translate(-30%, 0%);
+}
+
+.t2 {
+	transform: translate(-25%, 12%);
+}
+
+.t3 {
+	transform: translate(0%, 20%);
+}
+
+.t3_2 {
+	transform: translate(-5%, 0%);
+}
+
+.t3_1 {
+	transform: translate(-25%, 0%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.z4 {
+	transform: translate(0%, 42%);
+}
+
+.z3 {
+	transform: translate(0%, 0%);
+}
+
+.h1 {
+	transform: translate(0%, 500%);
+}
+
+.content {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 888px;
+	align-items: center;
+	font-family: cursive;
+	transform: translate(0%, -20%);
+}
+
+.btn {
+	width: 400px;
+	transform: translate(10%, 30%);
+}
